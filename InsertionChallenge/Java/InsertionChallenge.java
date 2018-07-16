@@ -14,8 +14,6 @@ import java.util.*;
 
 //class
 class InsertionChallenge {
-	//Global Declarations
-
 	//main driver
 	public static void main(String[] args) {
 		//local Declarations
@@ -53,7 +51,7 @@ class InsertionChallenge {
     	//get string from buffer and remove offset if any
     	result = sb.toString();
     	if(result.charAt(0) == '^') {
-	    	result = result.substring(1,length);
+	    	result = result.substring(1, length);
     	}
     	return result;
     }
